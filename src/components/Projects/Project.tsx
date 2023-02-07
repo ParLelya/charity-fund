@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Project: React.FC = (props) => {
-  return ;
+	return (
+		<div></div>
+	  );
 };
 
 export default Project;
