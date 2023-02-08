@@ -8,10 +8,9 @@ import News from './components/News/News';
 import Help from './components/Help/Help';
 
 function App() {
-
 	return (
 		<div className="App">
-			<Navbar />
+			<Navbar/>
 			<About />
 			<Help />
 			<PetsList />

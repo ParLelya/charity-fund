@@ -1,0 +1,17 @@
+.sidenav {
+	position: fixed;
+	width: 35vw;
+	height: 100vh;
+	left: 0;
+	top: 55px;
+	transform: translateX(-100%);
+	transition: all 0.3s ease-in-out;
+}
+
+.sidenav.active {
+	transform: translateX(0)
+}
+
+.sidenav__btn {
+	text-align: left;
+}
