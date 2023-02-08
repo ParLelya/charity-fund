@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
 	const menuButtons = items.map(item => {
 		return (
 		<li>
-			<a key={item.href} href={item.href} className="black-text waves-effect">{item.value}</a>
+			<a key={item.id} href={item.href} className="black-text waves-effect">{item.value}</a>
 		</li>
 		)
 	})
@@ -39,11 +39,11 @@ const Navbar: React.FC = () => {
 				active={menuActive} 
 				setActive={setMenuActive}
 				/>
-				<span className="left black-text hide-on-med-and-down" style={{ marginLeft: '10px', fontWeight: '600' }}>
+				<span className="left black-text hide-on-med-and-down" style={{ marginLeft: '10px', fontWeight: '500' }}>
 					{header}
 				</span>
 
-				<a href='#!' className="brand-logo" style={{ left: '47%', top: '-20%' }} >
+				<a href='#!' className="brand-logo" style={{ left: '47%', top: '-33%' }} >
 					<img
 						src='logo.png'
 						alt='logo'

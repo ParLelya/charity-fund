@@ -5,7 +5,7 @@ const About: React.FC = (props) => {
 		<section id='about' >
 			<div className="row">
 				<div className="col s12 m6 l7">
-					<h3 className="header">НАШ ДЕВИЗ – ШАНС ЕСТЬ У КАЖДОГО!</h3>
+					<h3 className="header">Наш девиз: <i>ШАНС ЕСТЬ У КАЖДОГО!</i></h3>
 					<div className="card">
 						<div className="card-image">
 							<img src="https://sun9-east.userapi.com/sun9-57/s/v1/ig2/zoQfWEEK1pldK1fiIQ2XkWTzLA947HqM1Gx5f98UPk2i_-cnCnQ0Rk_COsQ6jzIFUyPWWp28LIKFgzTtjiMfQpm4.jpg?size=2560x1706&quality=95&type=album" alt='' />
@@ -28,7 +28,7 @@ const About: React.FC = (props) => {
 				</div>
 
 				<div className="col s12 m6 l5">
-					<h3 className="header">НАШИ ЗАДАЧИ</h3>
+					<h3 className="header">Задачи фонда:</h3>
 					<div className="card-panel green lighten-4">
 						<p className="black-text">
 							<i className="material-icons">check</i>
@@ -42,7 +42,7 @@ const About: React.FC = (props) => {
 				</div>
 
 				<div className="col s12 m6 l5">
-					<h3 className="header">НАШИ РЕКВИЗИТЫ</h3>
+					<h3 className="header">Наши реквизиты</h3>
 					<div className="card-panel green lighten-4">
 						<p className="black-text">
 							Автономная некоммерческая организация Социальный центр спасения и реабилитации животных «Альтера Вита» ("Другая жизнь")<br />
