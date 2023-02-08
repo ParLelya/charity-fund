@@ -8,16 +8,17 @@ import News from './components/News/News';
 import Help from './components/Help/Help';
 
 function App() {
-  return (
-    <div className="App">
-		<Navbar/>
-		<About/>
-		<PetsList/>
-		<News/>
-		<Help/>
-		<Footer/>
-    </div>
-  );
+
+	return (
+		<div className="App">
+			<Navbar />
+			<About />
+			<Help />
+			<PetsList />
+			<News />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
