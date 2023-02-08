@@ -12,10 +12,11 @@ const Footer: React.FC = () => {
 						</h5>
 						<p className="black-text">
 							ИНН 4705088146 КПП 470501001<br />
-							р/с 40703810955000004152 в Северо-западном банке ПАО Сбербанк<br />
-							к/с 30101810500000000653<br />
+							Северо-западный банк ПАО Сбербанк<br />
+							Р/с № 40703810955000004152<br />
+							К/с № 30101810500000000653<br />
 							БИК 044030653<br />
-							При переводе указывать назначение платежа:<br />
+							Назначение платежа:<br />
 							"Пожертвование на уставную деятельность".
 						</p>
 					</div>
@@ -51,6 +52,9 @@ const Footer: React.FC = () => {
 					<div className="col l4 offset-l2 s12">
 						<h5 className="black-text">Контакты</h5>
 						<ul>
+							<li className="black-text">
+							<i className="material-icons" style={{ fontSize: '1.3rem', transform: 'translateY(18%)' }}>location_on</i> Ленинградская область, Вырица
+							</li>
 							<li className="black-text">
 								<span>Дарья Варламова
 									<a className="waves-effect waves-green btn-flat" href='tel+79643804093'>+7(964)380-40-93</a>
