@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
 					{header}
 				</span>
 
-				<a href='/' className="brand-logo" style={{ left: '47%', top: '-20%' }} >
+				<a href='#!' className="brand-logo" style={{ left: '47%', top: '-20%' }} >
 					<img
 						src='logo.png'
 						alt='logo'
