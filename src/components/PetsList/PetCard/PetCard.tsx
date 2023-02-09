@@ -34,7 +34,12 @@ const PetCard: React.FC = () => {
 								<p>{pet.info}</p>
 							</div>
 							<div className="card-action">
-								<button className="waves-effect waves-light btn-small green lighten-2">Забрать домой</button>
+								<button
+									className="waves-effect waves-light btn-small green lighten-2"
+									onClick={() => {
+										window.open('https://vk.com/write-200001862', '_blank')
+									}}
+								>Забрать домой</button>
 							</div>
 						</div>
 					</div>
