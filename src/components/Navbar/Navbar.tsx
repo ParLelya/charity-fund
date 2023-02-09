@@ -1,43 +1,62 @@
-import React, {useState} from 'react';
+import React, {
+	useState,
+	// useRef, 
+	// useEffect 
+} from 'react';
 import SideNav from './SideNav/SideNav';
 import IMenuItem from '../../types/interface';
 
 const Navbar: React.FC = () => {
 	const [menuActive, setMenuActive] = useState(false)
 
+	// const aRef = useRef<HTMLAnchorElement>(null)
+	
+	// useEffect(() => {
+	// 		aRef.current?.scrollIntoView({behavior: "smooth"})
+	// }, [])
+
 	const header: string = 'Социальный центр спасения и реабилитации животных «Альтера Вита»'
 
 	const items: IMenuItem[] = [
 		{ value: 'О фонде', href: '#about', id: 1 },
-		{ value: 'Помочь', href: '#help', id: 2 },
-		{ value: 'Подопечные', href: '#pets', id: 3 },
+		{ value: 'Подопечные', href: '#pets', id: 2 },
+		{ value: 'Помочь', href: '#help', id: 3 },
 		{ value: 'Новости', href: '#news', id: 4 },
 	]
 
 	const menuButtons = items.map(item => {
 		return (
-		<li>
-			<a key={item.id} href={item.href} className="black-text waves-effect">{item.value}</a>
-		</li>
+			<li>
+				<a
+					key={item.id}
+					href={item.href}
+					className="black-text waves-effect"
+					// onClick={e => {
+					// 	e.preventDefault()
+					// 	item.href.scrollIntoView({ behavior: "smooth" })
+					// 	}
+					// }}
+				>{item.value}</a>
+			</li>
 		)
 	})
 
 	return (
 		<nav>
 			<div className="nav-wrapper green lighten-2">
-				<a 
-				href='#!'
-				data-target="mobile-demo" 
-				className="sidenav-trigger"
-				onClick={() => setMenuActive(!menuActive)}
+				<a
+					href='#!'
+					data-target="mobile-demo"
+					className="sidenav-trigger"
+					onClick={() => setMenuActive(!menuActive)}
 				>
 					<i className="material-icons black-text">menu</i>
 				</a>
-				<SideNav 
-				header={header} 
-				menu={menuButtons} 
-				active={menuActive} 
-				setActive={setMenuActive}
+				<SideNav
+					header={header}
+					menu={menuButtons}
+					active={menuActive}
+					setActive={setMenuActive}
 				/>
 				<span className="left black-text hide-on-med-and-down" style={{ marginLeft: '10px', fontWeight: '500' }}>
 					{header}
