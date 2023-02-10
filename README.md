@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+This project was made as a sample for real non-profit organization center for rescue and rehabilitation of animals and animal shelter Altera Vita in Viritsa. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50px"/> 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and styled with [Materialize CSS](https://materializecss.com/)
 
 ## Available Scripts
 
