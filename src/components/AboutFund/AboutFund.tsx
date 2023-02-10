@@ -32,11 +32,11 @@ const About: React.FC = (props) => {
 					<h3 className="header">Задачи фонда:</h3>
 					<div className="card-panel green lighten-4">
 						<p className="black-text">
-							<i className="material-icons" style={{ fontSize: '1rem' }}>check</i>
+							<i className="material-icons" style={{ fontSize: '1rem', transform: 'translateY(20%)' }}>check</i>
 							спасение, лечение, стерилизация, пристройство бездомных кошек и собак;<br />
-							<i className="material-icons" style={{ fontSize: '1rem' }}>check</i>
+							<i className="material-icons" style={{ fontSize: '1rem', transform: 'translateY(20%)' }}>check</i>
 							пропаганда гуманного и ответственного отношения к животным;<br />
-							<i className="material-icons" style={{ fontSize: '1rem' }} >check</i>
+							<i className="material-icons" style={{ fontSize: '1rem', transform: 'translateY(20%)' }} >check</i>
 							формирование новой культуры взаимодействия людей и братьев наших меньших.<br />
 						</p>
 					</div>
