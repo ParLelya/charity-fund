@@ -26,8 +26,8 @@ const About: React.FC = (props) => {
 						</div>
 					</div>
 				</div>
-				<h3 className="header">Наш девиз: <br/>
-				<i>«ШАНС ЕСТЬ У КАЖДОГО!»</i></h3>
+				<h3 className="header">Наш девиз:<br />
+					<i>«ШАНС ЕСТЬ У КАЖДОГО!»</i></h3>
 				<div className="col s12 m6 l7">
 					<h3 className="header">Задачи фонда:</h3>
 					<div className="card-panel green lighten-4">
@@ -46,7 +46,7 @@ const About: React.FC = (props) => {
 					<h3 className="header">Реквизиты:</h3>
 					<div className="card-panel green lighten-4">
 						<p className="black-text">
-							Автономная некоммерческая организация Социальный центр спасения и реабилитации животных «Альтера Вита» ("Другая жизнь")<br />
+							Автономная некоммерческая организация Социальный центр спасения и реабилитации животных «Альтера Вита»<br />
 							ИНН 4705088146 КПП 470501001<br />
 							р/с 40703810955000004152 в Северо-западном банке ПАО Сбербанк<br />
 							к/с 30101810500000000653		БИК 044030653<br />
@@ -54,7 +54,7 @@ const About: React.FC = (props) => {
 						</p>
 					</div>
 				</div>
-				
+
 			</div>
 		</section>
 	);
