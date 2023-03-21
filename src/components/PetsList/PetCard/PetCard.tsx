@@ -51,8 +51,8 @@ const PetCard: React.FC = () => {
 		<div>
 			{pets.map(pet => {
 				return (
-					<div className="col s12 m6 l3">
-						<div key={pet.id} className="card pet">
+					<div key={pet.id}  className="col s12 m6 l3">
+						<div className="card pet">
 							<div className="card-image">
 								<img
 									src={pet.url}

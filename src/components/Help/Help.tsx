@@ -58,9 +58,7 @@ const Help: React.FC = () => {
 					</div>
 				</div>
 			</div>
-			<Modal active={modalActive} setActive={setModalActive}>
-
-				
+			<Modal active={modalActive} setActive={setModalActive}>		
 			</Modal>
 		</div>
 	);

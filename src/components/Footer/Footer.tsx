@@ -57,17 +57,17 @@ const Footer: React.FC = () => {
 							</li>
 							<li className="black-text">
 								<span>Дарья Варламова
-									<a className="waves-effect waves-green btn-flat" href='tel+79643804093'>+7(964)380-40-93</a>
+									<a className="waves-effect waves-green btn-flat" href='tel:+79643804093'>+7(964)380-40-93</a>
 								</span>
 							</li>
 							<li className="black-text">
 								<span>Марина Егорова
-									<a className="waves-effect waves-green btn-flat" href='tel+79818745020'>+7(981)874-50-20</a>
+									<a className="waves-effect waves-green btn-flat" href='tel:+79818745020'>+7(981)874-50-20</a>
 								</span>
 							</li>
 							<li className="black-text">
 								<span>Татьяна Машорина
-									<a className="waves-effect waves-green btn-flat" href='tel+79215977500'>+7(921)597-75-00</a>
+									<a className="waves-effect waves-green btn-flat" href='tel:+79215977500'>+7(921)597-75-00</a>
 								</span>
 							</li>
 						</ul>

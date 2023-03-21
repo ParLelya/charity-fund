@@ -26,16 +26,10 @@ const Navbar: React.FC = () => {
 
 	const menuButtons = items.map(item => {
 		return (
-			<li>
+			<li key={item.id}>
 				<a
-					key={item.id}
 					href={item.href}
 					className="black-text waves-effect"
-					// onClick={e => {
-					// 	e.preventDefault()
-					// 	item.href.scrollIntoView({ behavior: "smooth" })
-					// 	}
-					// }}
 				>{item.value}</a>
 			</li>
 		)
