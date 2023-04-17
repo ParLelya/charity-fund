@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from '../Modal/Modal';
+import Modal from './Modal/Modal';
 
 const Help: React.FC = () => {
 	const [modalActive, setModalActive] = useState(false)
@@ -49,16 +49,16 @@ const Help: React.FC = () => {
 								>
 									Помочь рублём
 								</button>
-								<hr style={{ color: 'transparent' }} className="show-on-small"/>
+								<hr style={{ color: 'transparent' }} className="show-on-small" />
 								<a href="https://vk.com/topic-200001862_46581666" style={{ margin: '5px 20px' }}>
 									Посмотреть финансовый отчёт
-									</a>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<Modal active={modalActive} setActive={setModalActive}>		
+			<Modal active={modalActive} setActive={setModalActive}>
 			</Modal>
 		</div>
 	);

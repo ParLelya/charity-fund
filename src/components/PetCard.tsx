@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface IPets {
+interface IPet {
 	name: string,
 	age: string,
 	info: string,
@@ -10,7 +10,7 @@ interface IPets {
 
 const PetCard: React.FC = () => {
 
-	const pets: IPets[] = [
+	const pets: IPet[] = [
 		{
 			name: 'Пуфик',
 			age: '3 года',
